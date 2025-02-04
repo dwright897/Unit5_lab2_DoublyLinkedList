@@ -1,0 +1,3 @@
+1. In both, methods for inserting and removing nodes at the head and tail are similar, such as head_insert, tail_insert, and head_remove.
+2. the prev pointer makes things more complicated because when inserting or removing nodes I have to update both prev and next pointers.
+3. DLL lets you be able to move in both directions, making removing nodes from the tail easier, this can also help speed up insertions and deletions for both ends.  
